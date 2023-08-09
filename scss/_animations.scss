@@ -1,0 +1,130 @@
+@media screen and (min-width: 480px) {
+    .article-contacts {
+        form div {
+          transform: translate(0px, 120px);
+          opacity: 0;
+          transition: all 0.3s ease 0s;
+        }
+        button {
+          opacity: 0;
+          transform: translateX(250%);
+          transition: all 1s ease 0s;
+        }
+      }
+}
+
+header {
+  transition: all 0.8s ease 0s;
+}
+
+.fixed {
+  position: fixed;
+  top: 0rem;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: white;
+  padding: rem(5px) rem(132px) rem(5px) 0;
+  a {
+    font-size: rem(10px) !important;
+  }
+  img {
+    margin-left: rem(132px);
+  }
+  @extend %active-settings;
+}
+
+.title {
+  transform: translate(0px, 120%);
+  transition: all 0.8s ease 0s;
+  opacity: 0;
+}
+p:not([class^='footer']) {
+  opacity: 0;
+  transform: translate(0px, 120%);
+  transition: all 0.5s ease 0s;
+}
+
+.description.active h2,
+.description.active p,
+.article-tasks.active h2,
+.article-tasks.active p,
+.article-projects.active h2,
+.article-projects.active p {
+  @extend %active-settings;
+}
+
+.slider {
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+
+.slider.active {
+  opacity: 1;
+}
+
+.slider-image {
+  transform: rotate(360deg);
+  border-radius: 50%;
+  scale: 0.5;
+  transition: all 0.8s ease 0s;
+}
+
+.slider-image.active {
+  border-radius: 0;
+  transform: rotate(0deg);
+  scale: 1;
+}
+
+.slider-title {
+  span {
+    &:first-child {
+      transform: translate(-120%, 0px);
+      opacity: 0;
+      transition: all 0.8s ease 0s;
+    }
+    &:last-child {
+      transform: translate(120%, 0px);
+      opacity: 0;
+      transition: all 0.8s ease 0s;
+    }
+  }
+}
+
+.slider-title span.active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.img1,
+.img2,
+.img3 {
+  transform: scale(0);
+  transition: all 0.8s ease 0s;
+}
+
+.article-about.active div[class^='img'] {
+  transform: scale(1);
+}
+
+.article-projects {
+  div[class^='img'] {
+    transform: rotateY(180deg);
+  }
+}
+
+.article-projects.active {
+  div[class^='img'] {
+    transform: rotateY(0);
+    transition: all 1s ease 0s;
+  }
+}
+
+.article-contacts.active {
+  h2,
+  form div,
+  button,
+  p {
+    @extend %active-settings;
+  }
+}

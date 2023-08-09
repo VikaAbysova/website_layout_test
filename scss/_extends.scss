@@ -1,0 +1,48 @@
+%active-settings {
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+%default-settings {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+%font-family-light {
+  font-size: $custom-title-font-size;
+  color: $custom-font-color-light;
+  font-weight: 300;
+}
+
+%arrow-settings {
+  width: rem(24px);
+  height: rem(24px);
+}
+
+%button-settings {
+  width: rem(221.81px);
+  height: rem(71px);
+  letter-spacing: $primary-letter-spacing;
+  font-size: $custom-font-size;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: $primary-cursor;
+}
+
+%flex-end-settings {
+  display: flex;
+  justify-content: end;
+}
+
+%flex-between-settings {
+  display: flex;
+  justify-content: space-between;
+}
+
+%flex-start-settings {
+  display: flex;
+  justify-content: flex-start;
+}
+

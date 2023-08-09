@@ -1,0 +1,15 @@
+{
+  "name": "smart-orange",
+  "version": "1.0.0",
+  "description": "site layout",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss/style.scss css/style.css"
+  },
+  "author": "Abysova Viktoriia",
+  "license": "ISC",
+  "engines": {
+    "node": "16.14.0",
+    "sass": "1.64.2"
+  }
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'TT Hoves';
+  src: url('TTHoves-Regular.eot');
+  src: local('TT Hoves Regular'), local('TTHoves-Regular'),
+    url('TTHoves-Regular.eot?#iefix') format('embedded-opentype'),
+    url('TTHoves-Regular.woff2') format('woff2'),
+    url('TTHoves-Regular.woff') format('woff'),
+    url('TTHoves-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Hoves';
+  src: url('TTHoves-Light.eot');
+  src: local('TT Hoves Light'), local('TTHoves-Light'),
+    url('TTHoves-Light.eot?#iefix') format('embedded-opentype'),
+    url('TTHoves-Light.woff2') format('woff2'),
+    url('TTHoves-Light.woff') format('woff'),
+    url('TTHoves-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}

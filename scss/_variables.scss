@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('TTHoves-Regular.eot');
+    src: local('TT Hoves Regular'), local('TTHoves-Regular'),
+        url('/fonts/TTHoves/TTHoves-Regular.eot') format('embedded-opentype'),
+        url('/fonts/TTHoves/TTHoves-Regular.woff2') format('woff2'),
+        url('/fonts/TTHoves/TTHoves-Regular.woff') format('woff'),
+        url('/fonts/TTHoves/TTHoves-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Francisco Pro';
+    src: local('San Francisco Pro Display Black'), local('San-Francisco-Pro-Display-Black'),
+        url('/fonts/SF_Display/SFProDisplay-Black.woff2') format('woff2'),
+        url('/fonts/SF_Display/SFProDisplay-Black.woff') format('woff'),
+        url('/fonts/SF_Display/SFProDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+
+$primary-body-padding: 0 rem(135px);
+
+$primary-body-width: rem(1440px);
+
+$primary-section-margin-bottom: rem(120px);
+
+$primary-font-family: 'TT Hoves';
+
+$custom-font-family: 'San Francisco Pro';
+
+$primary-font-size: rem(16px);
+
+$custom-font-size: rem(12px);
+
+$custom-title-font-size: rem(64px);
+
+$primary-letter-spacing: rem(2px);
+
+$primary-footer-font-size: rem(14px);
+
+$primary-font-color: #333333;
+
+$primary-cursor: pointer;
+
+$primary-asterisk-color: #C30000;
+
+$primary-footer-background: #2C2C2C;
+
+$custom-font-color-light: #BDBDBD;
+
+$custom-color-light: #F2F2F2;
+
+$custom-footer-color: #C8C8C8
